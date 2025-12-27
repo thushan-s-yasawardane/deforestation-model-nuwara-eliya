@@ -1,0 +1,29 @@
+{
+  "seed": 42,
+  "project_root": "C:\\Users\\User\\Desktop\\Deforestation\\Deforestation",
+  "landsat_root": "C:\\Users\\User\\Desktop\\Deforestation\\Deforestation\\Landsat_By_Year",
+  "aoi_path": "C:\\Users\\User\\Desktop\\Deforestation\\Deforestation\\AOI\\nuwara_eliya_District_AOI.geojson",
+  "out_dir": "C:\\Users\\User\\Desktop\\Deforestation\\Deforestation\\NuwaraEliya",
+  "baseline_years": [
+    2013,
+    2014,
+    2015
+  ],
+  "analysis_years": [
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "forest_ndvi_threshold": 0.55,
+  "ndvi_drop_threshold": 0.2,
+  "ndmi_drop_threshold": 0.1,
+  "min_persistence_years": 2,
+  "min_valid_obs_per_year": 4
+}
